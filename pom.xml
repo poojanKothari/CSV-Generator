@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.poojan.kothari</groupId>
+  <artifactId>csv-generator</artifactId>
+  <version>0.0.1</version>
+  <name>CSV-Generator</name>
+  <description>Simple csv File replicator which read input files and generates output accordingly
+</description>
+<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<slf4j.version>1.6.1</slf4j.version>
+	</properties>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
+        <configuration>
+          <source/>
+          <target/>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <organization>
+  	<name>PoojanKothari</name>
+  	<url>https://www.linkedin.com/in/poojan-kothari-07b4a2b1/</url>
+  </organization>
+  <url>https://www.linkedin.com/in/poojan-kothari-07b4a2b1/</url>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache.commons</groupId>
+  		<artifactId>commons-lang3</artifactId>
+  		<version>3.7</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.slf4j</groupId>
+  		<artifactId>slf4j-log4j12</artifactId>
+  		<version>1.8.0-beta2</version>
+  	</dependency>
+  </dependencies>
+</project>
