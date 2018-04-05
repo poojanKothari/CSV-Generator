@@ -7,10 +7,10 @@ Simple java utility for repilcating input csv file and genrating configured repl
   *keyword ${num} is replaced by current line number
 
 # Run 
-Invoke class com.poojan.kothari.CSVGenerator.java with command line params <numberOfReplication> <InputCSVFilePath> <OutputCSVFilePath>
+Invoke class com.poojan.kothari.CSVGenerator.java with command line params [numberOfReplication] [InputCSVFilePath] [OutputCSVFilePath]
   
 # Example 
-java -cp <classpath> com.poojan.kothari.CSVGenerator 3 /home/poojan/input.csv /home/poojan/output.csv
+java -cp [classpath] com.poojan.kothari.CSVGenerator 3 /home/poojan/input.csv /home/poojan/output.csv
   
   
  Suggestion are welcomed :)
